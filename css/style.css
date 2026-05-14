@@ -86,3 +86,35 @@ header {
     margin-top: 20px;
     align-self: flex-start;
 }
+
+.worries {
+    background-color: #3c2415;
+    padding: 80px 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.worries h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.worries__list {
+    list-style: none;
+}
+
+.worries__list li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.worries__list li::before {
+    content: "✓";
+    color: #c9a84c;
+    margin-right: 10px;
+}
+
+.worries__text {
+    margin-top: 30px;
+    font-size: 25px;
+}
