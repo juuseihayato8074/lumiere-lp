@@ -303,6 +303,49 @@ header {
     display: block;
 }
 
+.cta {
+    background-color: #3c2415;
+    padding: 80px 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cta h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cta__text {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cta img {
+    width: 70%;
+}
+
+.cta__price--old {
+    text-decoration: line-through;
+    color: #999999;
+}
+
+.cta__price--new {
+    font-size: 30px;
+    color: #c9a84c;
+}
+
+.cta__btn {
+    display: inline-block;
+    background-color: #c9a84c;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
 html {
     scroll-behavior: smooth;
 }
