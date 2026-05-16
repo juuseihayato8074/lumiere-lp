@@ -306,3 +306,45 @@ header {
 html {
     scroll-behavior: smooth;
 }
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .header__nav {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #3c2415;
+        padding: 20px;
+    }
+
+    .header__nav.active {
+        display: block;
+    }
+
+    .nav__links {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
