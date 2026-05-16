@@ -352,7 +352,7 @@ header {
 
 footer {
     padding: 80px 40px;
-    background-color: #ffffff;
+    background-color: #3c2415;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -368,6 +368,10 @@ footer {
     list-style: none;
     display: flex;
     gap: 30px;
+}
+
+.footer__nav a,.footer__copyright {
+    color: #ffffff;
 }
 
 html {
