@@ -386,19 +386,21 @@ html {
     border: none;
     cursor: pointer;
     padding: 5px;
+    z-index: 100;
 }
 
 .hamburger span {
     display: block;
     width: 25px;
     height: 2px;
-    background-color: #ffffff;
+    background-color: #3c2415;
 }
 
 @media (max-width: 768px) {
     header {
         padding: 15px 20px;
         position: relative;
+        z-index: 100;
     }
 
     .header__logo img {
