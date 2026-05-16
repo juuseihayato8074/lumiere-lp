@@ -288,6 +288,7 @@ header {
 .faq__question {
     font-size: 20px;
     color: #3c2415;
+    cursor: pointer;
 }
 
 .faq__answer {
@@ -295,4 +296,9 @@ header {
     color: #6b4c2a;
     margin-top: 15px;
     line-height: 1.8;
+    display: none;
+}
+
+.faq__answer.active {
+    display: block;
 }
