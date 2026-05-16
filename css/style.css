@@ -302,3 +302,7 @@ header {
 .faq__answer.active {
     display: block;
 }
+
+html {
+    scroll-behavior: smooth;
+}
