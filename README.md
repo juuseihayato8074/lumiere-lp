@@ -10,7 +10,22 @@ https://juuseihayato8074.github.io/lumiere-lp/
 
 - HTML
 - CSS
-- JavaScript
+- JavaScript（バニラ）
+
+## 実装機能
+
+JavaScriptによるスクロールアニメーション
+ハンバーガーメニュー（SP対応）
+レスポンシブデザイン
+
+## ディレクトリ構成
+lumiere-lp/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+└── images/
 
 ## 制作のポイント
 
