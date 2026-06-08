@@ -14,8 +14,8 @@ https://juuseihayato8074.github.io/lumiere-lp/
 
 ## 実装機能
 
-JavaScriptによるスクロールアニメーション
 ハンバーガーメニュー（SP対応）
+FAQアコーディオン
 レスポンシブデザイン
 
 ## ディレクトリ構成
